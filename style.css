@@ -1,0 +1,85 @@
+* {
+box-sizing:border-box;
+}
+body{
+    margin:0;
+}
+header {
+    height: 101px;
+    box-shadow: 10px 10px 8px grey;
+    position:relative;
+}
+.header-container {
+    max-width: 70%;;
+    margin: 0 auto;
+    
+    height: 100%;
+    display:flex;
+    justify-content:space-between;
+}
+.left-nav{
+    display:flex;
+    height:100%;
+    align-items:center;
+    font-weight:700;
+}
+
+.logo {
+    height: 51px;
+    width: 51px;
+}
+.logo img {
+        height: 100%;
+    }
+.header-container .left-nav nav ul{
+    display:flex;
+    list-style-type:none;
+}
+.header-container .left-nav nav ul li{
+    text-transform:uppercase;
+    padding-left:20px;
+    font-weight:500;
+    letter-spacing:0.1em;
+}
+.header-container .left-nav nav ul li:hover {
+    background-color:ghostwhite;
+}
+.right-nav{
+    display:flex;
+    align-items:center;
+}
+.find-store {
+    display: flex;
+    justify-content: center;
+    margin-right: 30px;
+    align-items: center;
+    font-weight: 700;
+}
+    .find-store i{
+        padding-right:10px;
+        font-size:30px;
+    }
+    .sign-in button {
+        padding: 6px 2px 4px 4px;
+        font-weight: 500;
+        border: 2px solid black;
+        border-radius: 60px;
+        line-height: 1.2;
+        background-color: white;
+        margin-right: 10px;
+        font-weight:700;
+    }
+        .sign-in button:hover {
+            background-color: ghostwhite;
+            transition:all .3s ease;
+        }
+        .join-now button {
+            padding: 6px 2px 4px 4px;
+            font-weight: 500;
+            border: 2px solid black;
+            border-radius: 60px;
+            line-height: 1.2;
+            background-color: white;
+            font-weight: 700;
+        }
+.join-now button:hover{background-color:ghostwhite;}
